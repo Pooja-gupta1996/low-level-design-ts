@@ -4,7 +4,6 @@ class Order {
   calculateTotal() {
     return this.items.length * 100;
   }
-
   saveToDatabase() {
     console.log("Saving order to DB...");
   }
